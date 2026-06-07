@@ -1,0 +1,216 @@
+🌙 Project: Yoru — The Anime Game Bot
+🧩 Concept:
+
+A Discord bot inspired by OwO, but built around:
+
+Anime actions (kiss, hug, slap, etc.)
+
+Cyber-fantasy RPG world
+
+Custom leveling + economy system
+
+Stylish neon aesthetics
+
+🎮 1. Core Identity
+Feature	Description
+Theme	Futuristic anime world with cyber spirits & hackers
+Main Loop	Social interaction → Currency & XP → Gear → Duels
+Art Style	Neon colors, anime GIFs, glowing UI
+Tone	Cute, clever, slightly mischievous 😼
+💞 2. Anime Action System (OwO-style)
+🔹 Core Idea:
+
+Exactly like OwO’s owo kiss / owo slap, but more dynamic + cooler visuals.
+
+🕹️ Commands:
+Command	Example Output
+yoru kiss @user	💞 @you kissed @user — “Sweet bytes of affection.”
+yoru hug @user	🤗 @you hugged @user tight.
+yoru slap @user	💢 @you slapped @user — “System reboot required!”
+yoru pat @user	🩷 @you pats @user on the head softly~
+yoru cuddle @user	💤 @you cuddles @user under a digital sky.
+yoru blush	🥺 @you is overheating (blush.exe detected).
+yoru bonk @user	🔨 @you bonks @user back to reality.
+⚙️ Backend:
+
+Uses nekos.best or waifu.pics API for random anime GIFs
+
+Random caption generator for each command
+
+Cooldown (2–5 seconds) to prevent spam
+
+Optionally gives Emotion XP (for fun leveling)
+
+⚔️ 3. Game System — Yoru’s World: The Hackverse
+🧠 Concept:
+
+You are a “Data Hunter”, exploring servers, fighting rogue AIs, and finding Yoru Fragments.
+
+🎯 Commands:
+Command	Description
+yoru hack	Try to hack a node for rewards
+yoru scan	Search for artifacts
+yoru duel @user	Battle another player’s AI
+yoru forge	Fuse weapons or upgrade tools
+yoru daily	Claim your daily credits
+yoru work	Earn credits via small jobs
+yoru inventory	View your items
+yoru profile	Check your stats & level
+yoru rank	Show your rank among players
+💰 Economy:
+Currency	Symbol	Use
+Credits	₿	Base money
+Fragments	💠	Crafting materials
+Energy	⚡	Needed for hacking missions
+🧾 Example Game Output:
+💻 Yoru Terminal:
+Accessing Node 7B...
+🔓 Hack Successful!
+You gained +350₿ and found 1 Rare Fragment 💠
+
+🪄 4. Weapon & Item System
+💎 Example Weapons:
+Name	Rarity	Power
+Neon Dagger	Common	+2 ATK
+Cyber Katana	Rare	+5 ATK
+Phantom Blade	Epic	+10 ATK
+Yoru’s Edge	Legendary	+20 ATK
+🔧 Commands:
+
+yoru equip <weapon>
+
+yoru forge <item1> <item2>
+
+yoru upgrade <item>
+
+yoru shop
+
+yoru sell <item>
+
+🧬 5. Leveling & XP System
+🎯 XP Sources:
+
+Hacking missions
+
+Winning duels
+
+Daily use
+
+Social actions (GIF interactions)
+
+📈 Level Rewards:
+Level	Reward
+5	Unlock “scan” command
+10	Unlock duel mode
+15	Unlock rare event missions
+20	Unlock exclusive titles
+🎁 6. Events & Bonuses
+Event	Description
+Nightfall Raid	Weekly AI boss battle
+Cyber Bloom	Collect rare fragments for bonus XP
+Daily Missions	Random small tasks
+Holiday Events	Seasonal items & limited-time GIFs
+🧠 7. Database Layout (MongoDB)
+
+users
+
+{
+  "userId": "234543654",
+  "credits": 1520,
+  "level": 4,
+  "xp": 670,
+  "emotionXP": 12,
+  "energy": 9,
+  "inventory": ["Cyber Katana", "AI Fragment"],
+  "equipped": "Cyber Katana"
+}
+
+
+items
+
+{
+  "name": "Cyber Katana",
+  "rarity": "Rare",
+  "attack": 5,
+  "value": 300
+}
+
+🌈 8. Visual Aesthetic
+Element	Style
+Theme	Neon cyberpunk + anime cuteness
+Colors	Purple 💜 Cyan 💙 Pink 💗
+Fonts	Monospace “console-style” in embeds
+Emojis	💻 ⚡ 💞 💾 🌙
+Footer	“Yoru System v1.0 — Stay luminous 🌙”
+
+Example Embed:
+
+🌙 Yoru Action Log:
+💞 @Kai hugged @Rin tightly.
+❤️ Emotion XP +2
+[Anime hug GIF here]
+
+🧱 9. Folder / Code Structure
+yoru-bot/
+├── index.js              # main file
+├── commands/
+│   ├── social/
+│   │   ├── kiss.js
+│   │   ├── hug.js
+│   │   └── slap.js
+│   ├── game/
+│   │   ├── hack.js
+│   │   ├── duel.js
+│   │   └── daily.js
+│   ├── economy/
+│   │   ├── work.js
+│   │   ├── shop.js
+│   │   └── inventory.js
+├── database/
+│   └── userSchema.js
+├── utils/
+│   ├── getGif.js
+│   ├── cooldowns.js
+│   └── randomText.js
+├── config/
+│   └── config.json
+└── .env
+
+🛡️ 10. Cooldowns & Anti-Spam
+
+!kiss, !hug → 5 sec cooldown
+
+!hack → 10 sec cooldown
+
+!duel → 30 sec cooldown
+
+!daily → 24 hrs cooldown
+
+Per-user cooldown stored in memory or MongoDB
+
+🚧 11. Roadmap
+Phase	Feature	Status
+1️⃣	Setup Yoru bot + base commands	🟢 Ready
+2️⃣	Add anime GIF actions	🟢 Priority
+3️⃣	Add hack & economy loop	🟡 Next
+4️⃣	Add weapon + duel system	🔵 Later
+5️⃣	Add leveling + events	🔴 Final polish
+💎 12. Example Gameplay Flow
+
+1️⃣ Player joins server
+2️⃣ Uses yoru start → creates profile
+3️⃣ Does yoru hack → earns credits
+4️⃣ Uses yoru shop → buys weapon
+5️⃣ Uses yoru kiss @friend → gets Emotion XP
+6️⃣ Levels up → unlocks new hacks
+7️⃣ Participates in weekly Nightfall Raid 🌙
+
+✨ Summary
+
+Yoru = OwO’s personality + Anime GIFs + Cyberpunk Game World
+
+✅ OwO-style anime actions
+✅ RPG-like hacking & economy
+✅ Leveling + XP + events
+✅ Neon-cute visual style
+✅ Full scalability & database support

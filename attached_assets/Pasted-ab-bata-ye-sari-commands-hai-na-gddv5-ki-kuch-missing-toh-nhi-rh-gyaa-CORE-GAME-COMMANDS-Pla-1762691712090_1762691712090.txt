@@ -1,0 +1,87 @@
+ab bata ye sari commands hai na gddv5 ki kuch missing toh nhi rh gyaa/
+
+🎮 CORE GAME COMMANDS
+Player Profile & Info
+/start - Begin your journey in RealmShatter
+/profile - View your complete player stats, level, class, and equipped gear
+/stats - Detailed breakdown of HP, Attack, Defense, Break, Phase stats
+/inventory or /inv - View all your items (weapons, armor, companions, resources)
+/backpack - Manage inventory space and upgrades
+Character & Class
+/legacy or /class - View available Legacies (classes) and their abilities
+/legacy select <name> - Choose your Legacy (Void Reaver, Aethermancer, etc.)
+⚔️ COMBAT & EXPLORATION
+Expeditions
+/expedition or /explore - Go on an expedition (costs 10 stamina)
+/expedition info - View current realm and available expeditions
+Foraging
+/forage - Harvest resources from the current realm (costs 5 stamina)
+/resources - View your collected crafting materials
+Fractures (Dungeons)
+/fracture enter <tier> - Enter a Fracture dungeon (F1-F7)
+/fracture list - View available Fractures and their rewards
+/fracture info <tier> - Detailed info about a specific Fracture
+🗡️ WEAPONS & GEAR
+Sigil Arms (Weapons)
+/sigilarm or /weapon - View your weapons
+/sigilarm equip <name> - Equip a weapon
+/sigilarm upgrade - Upgrade your equipped weapon
+/sigilarm info <name> - View weapon details
+Aegis Gear (Armor)
+/aegis or /armor - View your armor pieces
+/aegis equip <name> - Equip armor
+/aegis upgrade - Upgrade your equipped armor
+/aegis info <name> - View armor details
+🐾 COMPANIONS
+/companion or /companion list - View all your companions
+/companion summon <name> - Summon/equip a companion
+/companion train <name> - Train a companion to level up
+/companion info <name> - View companion details and abilities
+/companion feed <name> - Feed resources to boost companion
+🏪 ECONOMY & CRAFTING
+Shop & Market
+/shop - Browse items for sale
+/shop weapons - View weapons for sale
+/shop armor - View armor for sale
+/shop companions - View companion eggs for sale
+/buy <item> - Purchase an item
+/sell <item> - Sell an item from inventory
+Crafting
+/craft - View craftable items
+/craft <item> - Craft a specific item
+/forge - Fuse or upgrade items using materials
+/awaken <companion> - Awaken a companion to unlock new abilities
+🎰 RIFT TRIALS (Mini-games)
+/rift - View available Rift Trial games
+/rift flip - Play Rift Flip (coin flip, 49% win)
+/rift roll - Play Ether Roll (dice game)
+/rift slots - Play Shadow Slots (slot machine)
+/rift spin - Play Astral Spin (wheel of fortune)
+⚔️ PVP & COMPETITIVE
+/pvp duel <@user> - Challenge another player to a duel
+/pvp ranked - Enter ranked PvP match
+/pvp ranks or /leaderboard - View PvP rankings
+/pvp stats - View your PvP record (wins/losses)
+🌍 REALMS & PROGRESSION
+/realms - View all seven realms and your progress
+/realm info <name> - Detailed info about a specific realm
+/realm travel <name> - Travel to a different realm (if unlocked)
+📖 LORE & STORY
+/story - View main story progress
+/lore <topic> - Read lore about realms, bosses, or the Shattering
+/bestiary - View encountered enemies and bosses
+/boss info <name> - View boss details and mechanics
+💰 CURRENCY & RESOURCES
+/balance or /wallet - View Luminite and Astral Shards
+/daily - Claim daily Luminite and rewards (24hr cooldown)
+/stamina - Check current stamina and regeneration
+ℹ️ HELP & UTILITIES
+/help - Full command guide
+/guide <topic> - Specific guides (combat, companions, crafting, etc.)
+/ping - Check bot response time
+/settings - Adjust personal settings (notifications, display, etc.)
+🎁 SPECIAL & EVENTS
+/eclipse - Fight the Eclipsed Monarch (final boss, requires level 100)
+/season - View current seasonal event
+/achievements - View unlocked achievements
+/titles - Manage earned titles and cosmetics

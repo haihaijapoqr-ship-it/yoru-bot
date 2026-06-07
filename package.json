@@ -1,0 +1,25 @@
+{
+  "name": "yoru-bot",
+  "version": "1.0.0",
+  "description": "Yoru - The Anime Game Bot with cyberpunk aesthetics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "anime",
+    "rpg",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  }
+}
